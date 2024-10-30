@@ -1,0 +1,12 @@
+[
+  {
+    "email": "vinayak2002590@gmail.com",
+    "password": "1234567890",
+    "role": "admin"
+  },
+  {
+    "email": "vinayak2002590@gmail.com",
+    "password": "12345",
+    "role": "user"
+  }
+]
