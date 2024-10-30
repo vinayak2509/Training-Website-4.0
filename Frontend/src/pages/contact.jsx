@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./CSS/contact.css";
+import { useNavigate } from "react-router-dom";
 
 const Tooltip = ({ text, visible }) => {
   return (
@@ -8,6 +9,7 @@ const Tooltip = ({ text, visible }) => {
 };
 
 const Contact = () => {
+  const navigate = useNavigate();
   const [user, setUser] = useState({
     name: "",
     email: "",
@@ -51,6 +53,7 @@ const Contact = () => {
     }
 
     setShowTooltip(false);
+    navigate("/thanks");
   };
 
   return (

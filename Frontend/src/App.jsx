@@ -8,6 +8,7 @@ import Footer from "./Footer/index";
 import Login from "./pages/login";
 import User from "./pages/user";
 import UserAdmin from "./pages/userAdmin";
+import Thanks from "./pages/thanks";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Notification from "./pages/notifications";
@@ -44,6 +45,7 @@ const App = () => {
           <Route path="/user" element={<User />} />
           <Route path="/user-admin" element={<UserAdmin />} />
           <Route path="/notifications" element={<Notification />} />
+          <Route path="/thanks" element={<Thanks />} />
         </Routes>
       </BrowserRouter>
       <Footer />
