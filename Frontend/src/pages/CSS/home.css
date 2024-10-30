@@ -40,3 +40,9 @@ h1 {
 .thanks {
   text-align: center;
 }
+.center {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  text-align: center;
+}

@@ -33,7 +33,7 @@ const Notification = () => {
       {notifications.length === 0 ? (
         <p>No notifications available.</p>
       ) : (
-        <ul>
+        <ul className="center">
           {notifications.map((notification, index) => (
             <li key={index}>
               <strong>{notification.name}:</strong> {notification.message}{" "}
